@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#players{
+    text-align: center;
+    font-size: 28px;
+}
+
+#players div{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#players img{
+    width: 25px;
+}
+
+#red{
+    background-color: brown;
+    margin-right: 50px;
+}
+
+#blue{
+    background-color: dodgerblue;
+    
+}
+#clear{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#jogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 670px;
+    margin: auto;
+}
+
+.rect{
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#winner{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+

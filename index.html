@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <div id="players">
+        <div id="red">Player 1 <img src="./assets/botao-x.png" alt=""></div>
+        <div id="blue">Player 2 <img src="./assets/circulo.png" alt=""></div>
+        <div id="clear" onclick="reset()"> Reset </div>
+    </div>
+
+    <div id="winner"></div>
+
+    <div id="jogo">
+
+        <div class="rect" id="a1" onclick="set1()"></div>
+        <div class="rect" id="a2" onclick="set2()"></div>
+        <div class="rect" id="a3" onclick="set3()"></div>
+        <div class="rect" id="a4" onclick="set4()"></div>
+        <div class="rect" id="a5" onclick="set5()"></div>
+        <div class="rect" id="a6" onclick="set6()"></div>
+        <div class="rect" id="a7" onclick="set7()"></div>
+        <div class="rect" id="a8" onclick="set8()"></div>
+        <div class="rect" id="a9" onclick="set9()"></div>
+        
+    </div>
+    
+<script src="./script.js"></script>
+</body>
+</html>
